@@ -7,18 +7,21 @@ package main
 import "fmt"
 
 func main() {
-	x := 1
-	age:=20
-	for x <= age{
 
-		fmt.Println(x)
-		x++
+	born_y := 2001
+	current := 2022
+
+	for {
+		if born_y <= current {
+			fmt.Println(born_y)
+		}
+		born_y++
 
 	}
+
 }
 
-
-/*previous code
+/*previous code.
 
 func main(){
 	for {
@@ -30,3 +33,4 @@ func main(){
 	}
 
 }
+*/
