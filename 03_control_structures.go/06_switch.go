@@ -27,7 +27,7 @@ func main() {
 	// if you fall through and use fallthrough consecutively even if the conditions are false it will be printed.
 
 	switch {
-	case false:
+	case true:
 		fmt.Println("this should not be printed")
 
 	case 2 == 2:
