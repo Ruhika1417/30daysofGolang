@@ -6,9 +6,9 @@ var a bool
 
 func main() {
 
-	fmt.Println(a, "is the zero value of bool")
-	a = true
-	fmt.Println(a, "is the updated value of bool")
+	fmt.Println(A, "is the zero value of bool")
+	A = true
+	fmt.Println(A, "is the updated value of bool")
 
 	b := 34
 	c := 97
