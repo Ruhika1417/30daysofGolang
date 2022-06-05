@@ -40,9 +40,9 @@ type shape interface {
 	// circle()
 }
 
-func info(s shape) {
+func info(sh shape) {
 
-	fmt.Println(s.area())
+	fmt.Println(sh.area())
 
 }
 
@@ -56,7 +56,7 @@ func main() {
 	c1 := circle{
 		radius: 69,
 	}
-
+	fmt.Println(s1.area())
 	info(s1)
 	info(c1)
 
